@@ -89,13 +89,13 @@ python scripts/dvt.py check-feynman --scripts filled.json --range 260-330 --stri
 
 ```
 douyin-viral-script/
-├── SKILL.md                        # 主文档（技能入口）
+├── SKILL.md                        # 主文档（技能入口，只留路由/命令/判据）
 ├── assets/
-│   ├── structures.json             # 全部结构化数据
-│   └── structures.json.bak         # v1.0 备份
+│   └── structures.json             # 全部结构化数据
 ├── references/
 │   ├── short45-guide.md            # 45秒拍摄脚本规范
 │   ├── feynman-guide.md            # 费曼口播规范 + 费曼×带货融合
+│   ├── commerce-pipeline.md        # 带货产线流程（产品卡/骨架/槽位/装配）
 │   ├── section-guide.md            # 带货六位置写法
 │   └── corpus-findings.md          # 722条语料统计结论
 └── scripts/
