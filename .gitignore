@@ -14,6 +14,11 @@ desktop.ini
 _*.json
 .tmp_*
 
+# 备份 / 历史副本，不入库
+*.bak
+*.backup
+*.orig
+
 # 编辑器
 .vscode/
 .idea/
